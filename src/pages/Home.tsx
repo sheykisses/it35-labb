@@ -1,5 +1,6 @@
 
 import { 
+  IonButton,
     IonButtons,
       IonContent, 
       IonHeader, 
@@ -21,6 +22,9 @@ import {
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
+        <IonButton routerLink="/it35b-lab/app/home/details" expand="full">
+            Details
+        </IonButton>
         </IonContent>
       </IonPage>
     );
