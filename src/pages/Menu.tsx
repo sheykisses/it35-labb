@@ -48,7 +48,7 @@ const Menu: React.FC = () => {
                   ))}
 
                   {/*Logout Button*/}
-                  <IonButton routerLink="/it35-lab" routerDirection="back" expand="full">
+                  <IonButton routerLink="/it35-labb" routerDirection="back" expand="full">
                           <IonIcon icon={logOutOutline} slot="start"> </IonIcon>
                       Logout
                       </IonButton>
