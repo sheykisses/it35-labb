@@ -1,29 +1,29 @@
-
 import { 
-    IonButtons,
-      IonContent, 
-      IonHeader, 
-      IonMenuButton, 
-      IonPage, 
-      IonTitle, 
-      IonToolbar 
-  } from '@ionic/react';
+  IonBackButton,
+  IonButtons,
+    IonContent, 
+    IonHeader, 
+    IonMenuButton, 
+    IonPage, 
+    IonTitle, 
+    IonToolbar 
+} from '@ionic/react';
   
   const Details: React.FC = () => {
     return (
       <IonPage>
         <IonHeader>
-          <IonToolbar>
+          <IonToolbar color="primary">
             <IonButtons slot='start'>
-              <IonMenuButton></IonMenuButton>
+                <IonBackButton defaultHref='/it35b-lab/app/home'></IonBackButton>
             </IonButtons>
-            <IonTitle>Details</IonTitle>
+            <IonTitle>Home Details</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent fullscreen>
+        <IonContent className='ion-padding'>
         </IonContent>
       </IonPage>
     );
   };
   
-  export default Details;
+export default Details;
