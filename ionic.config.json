@@ -1,0 +1,7 @@
+{
+  "name": "it35-labb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
