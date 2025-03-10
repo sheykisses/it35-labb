@@ -1,9 +1,9 @@
 {
-  "name": "it35-labb",
+  "name": "it35-lab",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://Sheykisses.github.io/it35-labb",
+  "homepage": "https://Sheykisses.github.io/it35-lab",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
